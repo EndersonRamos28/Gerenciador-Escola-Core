@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GerenciadorEscolaApi</name>
+    </assembly>
+    <members>
+        <member name="M:GerenciadorEscolaApi.Controllers.AlunosController.GetAllMaterias">
+            <summary>
+            Método para trazer todos os Alunos cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GerenciadorEscolaApi.Controllers.AlunosController.SaveAluno(Models.Alunos.AlunoSaveModel)">
+            <summary>
+            Método para salvar novo registro de Aluno
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GerenciadorEscolaApi.Controllers.AlunosController.UpdateAluno(System.Int32,Models.Alunos.AlunoUpdateModel)">
+            <summary>
+            Método responsavel pela atualização dos dados do Aluno
+            </summary>
+            <param name="alunoId"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GerenciadorEscolaApi.Controllers.MateriasController.GetAllMaterias">
+            <summary>
+            Método para trazer todos as Matérias cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GerenciadorEscolaApi.Controllers.MateriasController.SaveMateria(System.String)">
+            <summary>
+            Método para salvar novo registro de Matéria
+            </summary>
+            <param name="nome"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GerenciadorEscolaApi.Controllers.MateriasController.UpdateProfessor(Models.Materias.MateriaModel)">
+            <summary>
+            Método responsavel pela atualização dos dados da Matéria
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GerenciadorEscolaApi.Controllers.ProfessoresController.GetAllProfessores">
+            <summary>
+            Método para trazer todos os professores cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GerenciadorEscolaApi.Controllers.ProfessoresController.SaveProfessor(Models.Professores.ProfessorSaveModel)">
+            <summary>
+            Método para salvar novo registro de professor
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GerenciadorEscolaApi.Controllers.ProfessoresController.UpdateProfessor(System.Int32,Models.Professores.ProfessorUpdateModel)">
+            <summary>
+            Método responsavel pela atualização dos dados do professor
+            </summary>
+            <param name="professorId"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
