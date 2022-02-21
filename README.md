@@ -1,0 +1,1 @@
+# Gerenciador-Escola-Core
